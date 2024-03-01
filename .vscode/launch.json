@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftUIAvocadoToast}",
+            "name": "Debug AvocadoToast",
+            "program": "${workspaceFolder:SwiftUIAvocadoToast}\\.build\\debug\\AvocadoToast.exe",
+            "preLaunchTask": "swift: Build Debug AvocadoToast"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftUIAvocadoToast}",
+            "name": "Release AvocadoToast",
+            "program": "${workspaceFolder:SwiftUIAvocadoToast}\\.build\\release\\AvocadoToast.exe",
+            "preLaunchTask": "swift: Build Release AvocadoToast"
+        }
+    ]
+}

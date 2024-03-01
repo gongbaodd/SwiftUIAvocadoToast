@@ -1,1 +1,0 @@
-FROM swift:amazonlinux2-slim

@@ -3,8 +3,9 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: swift:amazonlinux2-slim
-    init: true
+    image: swift:latest
+
+    # init: true
     volumes:
     - type: bind
       source: /var/run/docker.sock
